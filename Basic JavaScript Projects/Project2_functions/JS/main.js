@@ -5,3 +5,10 @@ function My_First_Function() {
 
     document.getElementById("Button_text").innerHTML = str2;
 }
+
+
+function myFunction() {
+    var sentence = "I am learning";
+    sentence += " a lot from this course";
+    document.getElementById("Concatenate").innerHTML = sentence;
+}
