@@ -56,3 +56,42 @@ function modulusOperator_Function() {
     var Modulus = 25 % 6;
     document.getElementById("Math6").innerHTML = "When you divide 25 by 6 you have a remainder of " + Modulus;
 }
+
+//Create a function that returns the result of a negation operator 
+//to the paragraph element with the id “Math7”
+
+function negationOperator_Function() {
+
+    var Negation = 10;
+    document.getElementById("Math7").innerHTML = -Negation;
+}
+
+//Create a function that uses increment operator
+//to the paragraph element with the id “Math8”
+
+function incrementOperator_Function() {
+
+    var Increment = 5;
+    Increment++;
+    document.getElementById("Math8").innerHTML = Increment;
+}
+
+//Create a function that uses decrement operator 
+//to the paragraph element with the id “Math9”
+
+function decrementOperator_Function() {
+
+    var Decrement = 5;
+    Decrement--;
+    document.getElementById("Math9").innerHTML = Decrement;
+}
+
+
+//Create a function that displays random number between 0 and 500 
+//to the paragraph element with the id “Math10”
+
+function mathRandom_Function() {
+
+    
+    document.getElementById("Math10").innerHTML = Math.random()*500;
+}
