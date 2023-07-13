@@ -95,3 +95,5 @@ function mathRandom_Function() {
     
     document.getElementById("Math10").innerHTML = Math.random()*500;
 }
+
+
