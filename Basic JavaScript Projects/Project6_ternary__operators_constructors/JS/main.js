@@ -47,3 +47,18 @@ function petFunction(){
     + Bobby.Pet_Breed + ", who is "
     + Bobby.Pet_Color;
 }
+
+
+//Use nested function to count
+
+function count_Function(){
+    document.getElementById("Nested_Function").innerHTML= Count();
+    function Count(){
+        var Starting_point = 9;
+            function Plus_One(){
+                Starting_point +=1;
+            }
+    Plus_One();
+    return Starting_point;
+    }
+}
