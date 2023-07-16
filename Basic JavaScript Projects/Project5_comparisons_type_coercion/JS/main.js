@@ -62,8 +62,43 @@ function tripleEqualsDisplay_False2() {
     .innerHTML=document.write(10==="10");
     }
 
-//Use === to display false data match from differnt values
-function tripleEqualsDisplay_False3() {
-    document.getElementById("tripleEqualsFalse3")
-    .innerHTML=document.write(10===5);
+//Use AND operator to display false
+function andOperatorFalse() {
+    document.getElementById("andOperatorFalse")
+    .innerHTML=document.write(10>11 && 5>4);
     }
+
+
+//Use AND operator to display true
+function andOperatorTrue() {
+    document.getElementById("andOperatorTrue")
+    .innerHTML=document.write(10>5 && 6<7);
+    }
+
+
+//Use OR operator to display false
+function orOperatorFalse() {
+    document.getElementById("andOperatorFalse")
+    .innerHTML=document.write(10>11 || 5<4);
+    }
+
+
+//Use OR operator to display true
+function orOperatorTrue() {
+    document.getElementById("andOperatorTrue")
+    .innerHTML=document.write(10>5 || 6<7);
+    }
+
+//Use NOT operator to display true
+function notOperatorTrue() {
+    document.getElementById("notOperatorTrue")
+    .innerHTML=!(5>10);
+    }
+
+    //Use NOT operator to display false
+function notOperatorFalse() {
+    document.getElementById("notOperatorFalse")
+    .innerHTML=!(5<10);
+    }
+
+    
