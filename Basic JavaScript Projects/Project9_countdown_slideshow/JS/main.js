@@ -45,3 +45,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+ 
+//count to 10 using a loop
+function countToTen(){
+
+    var Digit = "";
+    var x=1;
+    while (x<11) {
+        Digit += "<br>" + x;
+        x++;
+    }
+    document.getElementById("countingToTen").innerHTML = Digit;
+}
