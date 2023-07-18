@@ -31,3 +31,17 @@ function forLoop(){
     }
     document.getElementById("listOfInstruments").innerHTML = Content;
 }
+
+
+//document.getelementById().innerHTML Assignment
+
+function arrayFunction(){
+    var pet = [];
+    pet[0]="Dog";
+    pet[1]="Cat";
+    pet[2]="Ferret";
+    pet[3]="Snake";
+
+    document.getElementById("Array").innerHTML = "Here we display a pet from an array: "
+    + pet[3] + ".";
+}
